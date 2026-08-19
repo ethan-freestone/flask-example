@@ -2,12 +2,13 @@ import httpx
 
 ## GOKB Client (Hardcoding base_url for now)
 GOKB_BASE_URL = "https://gokb.org/gokb/api"
+GOKBT_BASE_URL = "https://gokbt.gbv.de/gokb/api"
 
 def build_scroll_url(scroll_size = 1000, component_type='TIPP', scroll_id = None):
-    gokb_url = f"{GOKB_BASE_URL}/scroll?component_type={component_type}&scroll_size={scroll_size}"
+    gokb_url = f"{GOKBT_BASE_URL}/scroll?componentType={component_type}&scrollSize={scroll_size}"
 
     if scroll_id:
-        gokb_url = f"{gokb_url}&scroll_id={scroll_id}"
+        gokb_url = f"{gokb_url}&scrollId={scroll_id}"
     return gokb_url
 
 def stream_http_records(page_size=1000):

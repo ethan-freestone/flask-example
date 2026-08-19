@@ -1,6 +1,6 @@
 from typing import Optional
 
-from sqlalchemy import ForeignKey, String, Index
+from sqlalchemy import ForeignKey, String, Index, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.dialects.postgresql import JSONB
 
@@ -15,7 +15,7 @@ class Title(db.Model):
     id: Mapped[int] = mapped_column(primary_key=True)
     raw_record: Mapped[dict] = mapped_column(JSONB, nullable=False)
     # Added index for title searches/sorting
-    title: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    title: Mapped[str] = mapped_column(Text, nullable=False, index=True)
     publication_type: Mapped[Optional[str]] = mapped_column(String(255))
 
     identifiers: Mapped[list["Identifier"]] = relationship(
@@ -42,8 +42,8 @@ class Identifier(db.Model):
         nullable=False,
         index=True
     )
-    id_type: Mapped[str] = mapped_column(String(50), nullable=False)  # e.g., 'issn', 'doi'
-    id_value: Mapped[str] = mapped_column(String(100), nullable=False)
+    id_type: Mapped[str] = mapped_column(String(255), nullable=False)  # e.g., 'issn', 'doi'
+    id_value: Mapped[str] = mapped_column(String(255), nullable=False)
 
     title: Mapped["Title"] = relationship("Title", back_populates="identifiers")
 

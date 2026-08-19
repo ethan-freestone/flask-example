@@ -1,4 +1,6 @@
 from flask import Flask
+
+from controllers.ingest_controller import ingest_bp
 from extensions import db, migrate
 from controllers.tipp_controller import tipp_bp
 
@@ -16,6 +18,8 @@ def create_app():
 
     # Register controllers (Blueprints)
     app.register_blueprint(tipp_bp)
+    app.register_blueprint(ingest_bp)
+
 
     # Alembic (Via Flask migrate) handles schema, so no need for create_all
 

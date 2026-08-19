@@ -20,6 +20,18 @@ def run_test_ingest():
         "elapsed_time_ns": end - start
     }), 201
 
+@ingest_bp.route("/run_page", methods=["POST"])
+def run_page_ingest():
+    start = time.perf_counter_ns()
+    count = run_page_ingest()
+    end = time.perf_counter_ns()
+
+    return jsonify({
+        "status": "success",
+        "crated_records": count,
+        "elapsed_time_ns": end - start
+    }), 201
+
 @ingest_bp.route("/nuke", methods=["POST"])
 def nuke_db():
     start = time.perf_counter_ns()

@@ -4,13 +4,12 @@ from reactivex import from_iterable, operators as ops
 
 from extensions import db  # This is the centralised DB connection
 from models.tipp import Title, Identifier
-from gokb_client_service import stream_http_records
+from services.gokb_client_service import stream_http_records
 
 
 # Single test title ingest
 def run_test_ingest():
   start_time = time.perf_counter_ns()
-  total_ingested = 0
 
   title = Title(
     title="test",

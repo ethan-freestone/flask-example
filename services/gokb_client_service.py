@@ -3,10 +3,17 @@ import httpx
 ## GOKB Client (Hardcoding base_url for now)
 GOKB_BASE_URL = "https://gokb.org/gokb/api"
 
+def build_scroll_url(scroll_size = 1000, component_type='TIPP', scroll_id = None):
+    gokb_url = f"{GOKB_BASE_URL}/scroll?component_type={component_type}&scroll_size={scroll_size}"
+
+    if scroll_id:
+        gokb_url = f"{gokb_url}&scroll_id={scroll_id}"
+    return gokb_url
+
 def stream_http_records(page_size=1000):
     # Pipeline which gets individual pages from http client
     with httpx.Client(timeout=60.0) as client:
-        url = f"{GOKB_BASE_URL}/scroll?componentType=TIPP&scrollSize={page_size}"
+        url = build_scroll_url(page_size)
         has_more = True
 
         ## Track has_more
@@ -30,6 +37,6 @@ def stream_http_records(page_size=1000):
 
                 # Subsequent scroll requests use scrollId
                 if has_more and scroll_id:
-                    url = f"{GOKB_BASE_URL}/scroll?scrollId={scroll_id}"
+                    url = build_scroll_url(page_size, 'TIPP', scroll_id)
                 else:
                     has_more = False

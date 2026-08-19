@@ -1,8 +1,8 @@
 from flask import Flask
-from extensions import db
+from extensions import db, migrate
 from controllers.tipp_controller import tipp_bp
 
-# Boilerplate mostle, but this creates app with SQL connection
+# Boilerplate mostly, but this creates app with SQL connection
 # Not sure exactly why this isn't in some config type file rn
 def create_app():
     app = Flask(__name__)
@@ -12,12 +12,12 @@ def create_app():
 
 
     db.init_app(app)
+    migrate.init_app(app, db) ## Bind migrations from flask-migrate
 
     # Register controllers (Blueprints)
     app.register_blueprint(tipp_bp)
 
-    with app.app_context():
-        db.create_all()
+    # Alembic (Via Flask migrate) handles schema, so no need for create_all
 
     return app
 

@@ -163,7 +163,8 @@ def plot_performance(df_proc, df_comp):
 
 if __name__ == '__main__':
   # Replace with your actual log file path
-  df = load_and_parse_data('rx-harvest.json')
+  #df = load_and_parse_data('rx-harvest.json')
+  df = load_and_parse_data('generator-harvest.json')
 
   # Process, print stats, and plot
   df_proc, df_comp = process_metrics(df)

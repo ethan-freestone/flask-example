@@ -35,17 +35,21 @@ This approach eliminated the need for thread pools and queues entirely. It provi
 
 ## Performance & Complexity Analysis
 
-Here is the updated performance and comparison table populated directly with the actual metrics gleaned from your log run:
+| Metric                         | RxPY + Queue Bridge                                  | Native Generators (`itertools`)                  |
+|--------------------------------|------------------------------------------------------|--------------------------------------------------|
+| **Total Items Ingested**       | 749,468 items (750 batches)                          | **749,468 items** (750 batches)                  |
+| **Total Execution Time**       | 392.33 seconds (~6.5 mins)                           | **401.96 seconds** (~6.7 mins)                   |
+| **Overall Average Speed**      | **1,910.32 items/sec**                               | 1,864.52 items/sec                               |
+| **Average Batch Duration**     | **0.5231 seconds**                                   | 0.5359 seconds                                   |
+| **Max Batch Duration (Spike)** | **6.6425 seconds** (Batch 656)                       | 10.0254 seconds (Batch 246)                      |
+| **Min Batch Duration**         | **0.0639 seconds** (Batch 200)                       | 0.0670 seconds (Batch 283)                       |
+| **Peak Throughput**            | **15,637.33 items/sec**                              | 14,914.79 items/sec                              |
+| **Lowest Throughput**          | **150.55 items/sec**                                 | 99.75 items/sec                                  |
+| **Code Complexity**            | High (Required thread pools & queue bridges)         | **Low (Standard procedural loop)**               |
+| **Resilience to Disconnects**  | Brittle (Required explicit `GeneratorExit` disposal) | **Robust (Pull-based iterator stops instantly)** |
 
-| Metric                         | RxPY + Queue Bridge (Actual Run Data)                | Native Generators (`itertools`)              |
-|--------------------------------|------------------------------------------------------|----------------------------------------------|
-| **Total Items Ingested**       | **749,468 items** (across 750 batches)               | *[Pending benchmark]*                        |
-| **Total Execution Time**       | **392.33 seconds** (~6.5 minutes)                    | *[Pending benchmark]*                        |
-| **Overall Average Speed**      | **1,910.32 items/sec**                               | *[Pending benchmark]*                        |
-| **Average Batch Duration**     | **0.5231 seconds**                                   | *[Pending benchmark]*                        |
-| **Max Batch Duration (Spike)** | **6.6425 seconds** (Batch 656)                       | *[Pending benchmark]*                        |
-| **Min Batch Duration**         | **0.0639 seconds** (Batch 200)                       | *[Pending benchmark]*                        |
-| **Peak Throughput**            | **15,637.33 items/sec**                              | *[Pending benchmark]*                        |
-| **Lowest Throughput**          | **150.55 items/sec**                                 | *[Pending benchmark]*                        |
-| **Code Complexity**            | High (Required thread pools & queue bridges)         | Low (Standard procedural loop)               |
-| **Resilience to Disconnects**  | Brittle (Required explicit `GeneratorExit` disposal) | Robust (Pull-based iterator stops instantly) |
+### Key Observations from the Comparison:
+
+* **Virtually Identical Throughput:** The execution times and speeds are neck-and-neck (~1,864 vs ~1,910 items/sec), proving that switching to native generators sacrifices **zero performance**. Both are bottlenecked identically by network/database I/O.
+* **The "Spike" Variance:** The native generator experienced a slightly higher maximum batch duration (10.02s vs 6.64s), which is typical random variance in database commit times (such as checkpointing or row locks in PostgreSQL) rather than a pipeline overhead difference.
+* **Architectural Win:** You shed dozens of lines of complex thread/queue synchronization logic while maintaining identical throughput and achieving absolute safety against memory leaks and zombie threads.

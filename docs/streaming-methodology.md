@@ -35,14 +35,17 @@ This approach eliminated the need for thread pools and queues entirely. It provi
 
 ## Performance & Complexity Analysis
 
-*(Currently running the RxPY pipeline to establish a baseline. I will update the metrics below once the Native Generator refactor is complete to compare the two approaches side-by-side.)*
+Here is the updated performance and comparison table populated directly with the actual metrics gleaned from your log run:
 
-| Metric | RxPY + Queue Bridge | Native Generators (`itertools`) |
-| :--- | :--- | :--- |
-| **Execution Time (10k records)** | *[To be populated]* | *[To be populated]* |
-| **Peak Memory Usage** | *[To be populated]* | *[To be populated]* |
-| **Code Complexity (Mental Overhead)** | High (Requires manual thread and queue management) | Low (Standard procedural loop) |
-| **Resilience to Client Disconnects** | Brittle (Requires catching `GeneratorExit` to `.dispose()` background threads) | Robust (Generator simply stops pulling data) |
-
-**Initial Thoughts:**
-I expect the execution times to be roughly identical, as the bottleneck is fundamentally I/O (network requests and database inserts). However, the real victory of the native approach will be the dramatic reduction in complexity and the elimination of zombie-thread risks.
+| Metric                         | RxPY + Queue Bridge (Actual Run Data)                | Native Generators (`itertools`)              |
+|--------------------------------|------------------------------------------------------|----------------------------------------------|
+| **Total Items Ingested**       | **749,468 items** (across 750 batches)               | *[Pending benchmark]*                        |
+| **Total Execution Time**       | **392.33 seconds** (~6.5 minutes)                    | *[Pending benchmark]*                        |
+| **Overall Average Speed**      | **1,910.32 items/sec**                               | *[Pending benchmark]*                        |
+| **Average Batch Duration**     | **0.5231 seconds**                                   | *[Pending benchmark]*                        |
+| **Max Batch Duration (Spike)** | **6.6425 seconds** (Batch 656)                       | *[Pending benchmark]*                        |
+| **Min Batch Duration**         | **0.0639 seconds** (Batch 200)                       | *[Pending benchmark]*                        |
+| **Peak Throughput**            | **15,637.33 items/sec**                              | *[Pending benchmark]*                        |
+| **Lowest Throughput**          | **150.55 items/sec**                                 | *[Pending benchmark]*                        |
+| **Code Complexity**            | High (Required thread pools & queue bridges)         | Low (Standard procedural loop)               |
+| **Resilience to Disconnects**  | Brittle (Required explicit `GeneratorExit` disposal) | Robust (Pull-based iterator stops instantly) |

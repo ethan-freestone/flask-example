@@ -1,8 +1,8 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify
 from extensions import db # This is the centralised DB connection
 from models.tipp import Title, Identifier
 
-## LEarning how to translate spring/MN patterns to Flask
+## Learning how to translate spring/MN patterns to Flask
 # url_prefix behaves like Micronaut's @Controller("/tipp")
 tipp_bp = Blueprint("tipp", __name__, url_prefix="/tipp")
 

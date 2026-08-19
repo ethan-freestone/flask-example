@@ -40,7 +40,7 @@ def stream_gokb_ingest():
         total_ingested = 0
         batch_count = 0
 
-        observable = stream_scroll_ingest(2000, 5000).pipe(
+        observable = stream_scroll_ingest(1000, 5000).pipe(
             ops.map(lambda batch_and_count: batch_and_count)  # whatever shape you need
         )
 

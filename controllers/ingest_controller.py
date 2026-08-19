@@ -53,13 +53,13 @@ def stream_gokb_ingest():
                 'batch': batch_count,
                 'processed_in_batch': count,
                 'total_ingested': total_ingested,
-                'elapsed_seconds': time.perf_counter_ns() - start_time
+                'execution_time': time.perf_counter_ns() - start_time
             })}\n\n"
 
         yield f"data: {json.dumps({
             'status': 'complete',
             'total_ingested': total_ingested,
-            'total_time_seconds': time.perf_counter_ns() - start_time
+            'execution_time': time.perf_counter_ns() - start_time
         })}\n\n"
 
     return Response(

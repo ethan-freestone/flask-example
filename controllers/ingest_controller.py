@@ -6,7 +6,7 @@ from models.tipp import Title, Identifier
 
 ingest_bp = Blueprint("ingest", __name__, url_prefix="/ingest")
 
-@ingest_bp.route("/ingest", methods=["POST"])
+@ingest_bp.route("/run", methods=["POST"])
 def run_ingest():
     title = Title(
         title="test",

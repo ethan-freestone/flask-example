@@ -1,0 +1,1003 @@
+[
+  {
+    "type": "incoming",
+    "seq": 1,
+    "message": "data: {\"status\": \"processing\", \"batch\": 1, \"processed_in_batch\": 1000, \"total_ingested\": 1000, \"execution_time\": 4373501958}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 312c 2022 7072 6f63  batch\": 1, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2031 3030 302c 2022  gested\": 1000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2034 3337 3335 3031 3935 387d 0a0a        4373501958}..\n",
+    "timestamp": 1787155366913
+  },
+  {
+    "type": "incoming",
+    "seq": 2,
+    "message": "data: {\"status\": \"processing\", \"batch\": 2, \"processed_in_batch\": 1000, \"total_ingested\": 2000, \"execution_time\": 4672651968}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 322c 2022 7072 6f63  batch\": 2, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2032 3030 302c 2022  gested\": 2000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2034 3637 3236 3531 3936 387d 0a0a        4672651968}..\n",
+    "timestamp": 1787155367210
+  },
+  {
+    "type": "incoming",
+    "seq": 3,
+    "message": "data: {\"status\": \"processing\", \"batch\": 3, \"processed_in_batch\": 1000, \"total_ingested\": 3000, \"execution_time\": 4981835244}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 332c 2022 7072 6f63  batch\": 3, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2033 3030 302c 2022  gested\": 3000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2034 3938 3138 3335 3234 347d 0a0a        4981835244}..\n",
+    "timestamp": 1787155367520
+  },
+  {
+    "type": "incoming",
+    "seq": 4,
+    "message": "data: {\"status\": \"processing\", \"batch\": 4, \"processed_in_batch\": 1000, \"total_ingested\": 4000, \"execution_time\": 5292603114}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 342c 2022 7072 6f63  batch\": 4, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2034 3030 302c 2022  gested\": 4000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2035 3239 3236 3033 3131 347d 0a0a        5292603114}..\n",
+    "timestamp": 1787155367830
+  },
+  {
+    "type": "incoming",
+    "seq": 5,
+    "message": "data: {\"status\": \"processing\", \"batch\": 5, \"processed_in_batch\": 1000, \"total_ingested\": 5000, \"execution_time\": 5519657214}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 352c 2022 7072 6f63  batch\": 5, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2035 3030 302c 2022  gested\": 5000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2035 3531 3936 3537 3231 347d 0a0a        5519657214}..\n",
+    "timestamp": 1787155368057
+  },
+  {
+    "type": "incoming",
+    "seq": 6,
+    "message": "data: {\"status\": \"processing\", \"batch\": 6, \"processed_in_batch\": 1000, \"total_ingested\": 6000, \"execution_time\": 6553325693}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 362c 2022 7072 6f63  batch\": 6, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2036 3030 302c 2022  gested\": 6000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2036 3535 3333 3235 3639 337d 0a0a        6553325693}..\n",
+    "timestamp": 1787155369091
+  },
+  {
+    "type": "incoming",
+    "seq": 7,
+    "message": "data: {\"status\": \"processing\", \"batch\": 7, \"processed_in_batch\": 1000, \"total_ingested\": 7000, \"execution_time\": 6830720021}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 372c 2022 7072 6f63  batch\": 7, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2037 3030 302c 2022  gested\": 7000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2036 3833 3037 3230 3032 317d 0a0a        6830720021}..\n",
+    "timestamp": 1787155369368
+  },
+  {
+    "type": "incoming",
+    "seq": 8,
+    "message": "data: {\"status\": \"processing\", \"batch\": 8, \"processed_in_batch\": 1000, \"total_ingested\": 8000, \"execution_time\": 7123070413}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 382c 2022 7072 6f63  batch\": 8, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2038 3030 302c 2022  gested\": 8000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2037 3132 3330 3730 3431 337d 0a0a        7123070413}..\n",
+    "timestamp": 1787155369661
+  },
+  {
+    "type": "incoming",
+    "seq": 9,
+    "message": "data: {\"status\": \"processing\", \"batch\": 9, \"processed_in_batch\": 1000, \"total_ingested\": 9000, \"execution_time\": 7430212379}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 392c 2022 7072 6f63  batch\": 9, \"proc\n00000030: 6573 7365 645f 696e 5f62 6174 6368 223a  essed_in_batch\":\n00000040: 2031 3030 302c 2022 746f 7461 6c5f 696e   1000, \"total_in\n00000050: 6765 7374 6564 223a 2039 3030 302c 2022  gested\": 9000, \"\n00000060: 6578 6563 7574 696f 6e5f 7469 6d65 223a  execution_time\":\n00000070: 2037 3433 3032 3132 3337 397d 0a0a        7430212379}..\n",
+    "timestamp": 1787155369968
+  },
+  {
+    "type": "incoming",
+    "seq": 10,
+    "message": "data: {\"status\": \"processing\", \"batch\": 10, \"processed_in_batch\": 1000, \"total_ingested\": 10000, \"execution_time\": 7711770750}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 2c20 2270 726f  batch\": 10, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3130 3030 302c  ngested\": 10000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2037 3731 3137 3730 3735 307d 0a0a  \": 7711770750}..\n",
+    "timestamp": 1787155370250
+  },
+  {
+    "type": "incoming",
+    "seq": 11,
+    "message": "data: {\"status\": \"processing\", \"batch\": 11, \"processed_in_batch\": 1000, \"total_ingested\": 11000, \"execution_time\": 10041287598}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 2c20 2270 726f  batch\": 11, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3131 3030 302c  ngested\": 11000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3030 3431 3238 3735 3938 7d0a  \": 10041287598}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155372579
+  },
+  {
+    "type": "incoming",
+    "seq": 12,
+    "message": "data: {\"status\": \"processing\", \"batch\": 12, \"processed_in_batch\": 1000, \"total_ingested\": 12000, \"execution_time\": 10313321347}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 2c20 2270 726f  batch\": 12, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3132 3030 302c  ngested\": 12000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3033 3133 3332 3133 3437 7d0a  \": 10313321347}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155372851
+  },
+  {
+    "type": "incoming",
+    "seq": 13,
+    "message": "data: {\"status\": \"processing\", \"batch\": 13, \"processed_in_batch\": 1000, \"total_ingested\": 13000, \"execution_time\": 10627069008}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 2c20 2270 726f  batch\": 13, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3133 3030 302c  ngested\": 13000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3036 3237 3036 3930 3038 7d0a  \": 10627069008}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155373165
+  },
+  {
+    "type": "incoming",
+    "seq": 14,
+    "message": "data: {\"status\": \"processing\", \"batch\": 14, \"processed_in_batch\": 1000, \"total_ingested\": 14000, \"execution_time\": 10864038905}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3134 2c20 2270 726f  batch\": 14, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3134 3030 302c  ngested\": 14000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3038 3634 3033 3839 3035 7d0a  \": 10864038905}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155373402
+  },
+  {
+    "type": "incoming",
+    "seq": 15,
+    "message": "data: {\"status\": \"processing\", \"batch\": 15, \"processed_in_batch\": 1000, \"total_ingested\": 15000, \"execution_time\": 11126650905}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3135 2c20 2270 726f  batch\": 15, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3135 3030 302c  ngested\": 15000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3131 3236 3635 3039 3035 7d0a  \": 11126650905}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155373665
+  },
+  {
+    "type": "incoming",
+    "seq": 16,
+    "message": "data: {\"status\": \"processing\", \"batch\": 16, \"processed_in_batch\": 1000, \"total_ingested\": 16000, \"execution_time\": 11945215807}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3136 2c20 2270 726f  batch\": 16, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3136 3030 302c  ngested\": 16000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3139 3435 3231 3538 3037 7d0a  \": 11945215807}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155374483
+  },
+  {
+    "type": "incoming",
+    "seq": 17,
+    "message": "data: {\"status\": \"processing\", \"batch\": 17, \"processed_in_batch\": 1000, \"total_ingested\": 17000, \"execution_time\": 12135320887}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3137 2c20 2270 726f  batch\": 17, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3137 3030 302c  ngested\": 17000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3231 3335 3332 3038 3837 7d0a  \": 12135320887}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155374673
+  },
+  {
+    "type": "incoming",
+    "seq": 18,
+    "message": "data: {\"status\": \"processing\", \"batch\": 18, \"processed_in_batch\": 1000, \"total_ingested\": 18000, \"execution_time\": 12376552220}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3138 2c20 2270 726f  batch\": 18, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3138 3030 302c  ngested\": 18000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3233 3736 3535 3232 3230 7d0a  \": 12376552220}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155374914
+  },
+  {
+    "type": "incoming",
+    "seq": 19,
+    "message": "data: {\"status\": \"processing\", \"batch\": 19, \"processed_in_batch\": 1000, \"total_ingested\": 19000, \"execution_time\": 12606185029}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3139 2c20 2270 726f  batch\": 19, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3139 3030 302c  ngested\": 19000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3236 3036 3138 3530 3239 7d0a  \": 12606185029}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155375144
+  },
+  {
+    "type": "incoming",
+    "seq": 20,
+    "message": "data: {\"status\": \"processing\", \"batch\": 20, \"processed_in_batch\": 1000, \"total_ingested\": 20000, \"execution_time\": 12888440248}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3230 2c20 2270 726f  batch\": 20, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3230 3030 302c  ngested\": 20000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3238 3838 3434 3032 3438 7d0a  \": 12888440248}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155375426
+  },
+  {
+    "type": "incoming",
+    "seq": 21,
+    "message": "data: {\"status\": \"processing\", \"batch\": 21, \"processed_in_batch\": 1000, \"total_ingested\": 21000, \"execution_time\": 13986779634}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3231 2c20 2270 726f  batch\": 21, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3231 3030 302c  ngested\": 21000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3339 3836 3737 3936 3334 7d0a  \": 13986779634}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155376525
+  },
+  {
+    "type": "incoming",
+    "seq": 22,
+    "message": "data: {\"status\": \"processing\", \"batch\": 22, \"processed_in_batch\": 1000, \"total_ingested\": 22000, \"execution_time\": 14368463520}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3232 2c20 2270 726f  batch\": 22, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3232 3030 302c  ngested\": 22000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3433 3638 3436 3335 3230 7d0a  \": 14368463520}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155376906
+  },
+  {
+    "type": "incoming",
+    "seq": 23,
+    "message": "data: {\"status\": \"processing\", \"batch\": 23, \"processed_in_batch\": 1000, \"total_ingested\": 23000, \"execution_time\": 14744581431}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3233 2c20 2270 726f  batch\": 23, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3233 3030 302c  ngested\": 23000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3437 3434 3538 3134 3331 7d0a  \": 14744581431}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155377282
+  },
+  {
+    "type": "incoming",
+    "seq": 24,
+    "message": "data: {\"status\": \"processing\", \"batch\": 24, \"processed_in_batch\": 1000, \"total_ingested\": 24000, \"execution_time\": 14992379255}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3234 2c20 2270 726f  batch\": 24, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3234 3030 302c  ngested\": 24000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3439 3932 3337 3932 3535 7d0a  \": 14992379255}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155377530
+  },
+  {
+    "type": "incoming",
+    "seq": 25,
+    "message": "data: {\"status\": \"processing\", \"batch\": 25, \"processed_in_batch\": 1000, \"total_ingested\": 25000, \"execution_time\": 15174552181}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3235 2c20 2270 726f  batch\": 25, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3235 3030 302c  ngested\": 25000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3531 3734 3535 3231 3831 7d0a  \": 15174552181}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155377712
+  },
+  {
+    "type": "incoming",
+    "seq": 26,
+    "message": "data: {\"status\": \"processing\", \"batch\": 26, \"processed_in_batch\": 1000, \"total_ingested\": 26000, \"execution_time\": 15963512754}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3236 2c20 2270 726f  batch\": 26, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3236 3030 302c  ngested\": 26000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3539 3633 3531 3237 3534 7d0a  \": 15963512754}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155378502
+  },
+  {
+    "type": "incoming",
+    "seq": 27,
+    "message": "data: {\"status\": \"processing\", \"batch\": 27, \"processed_in_batch\": 1000, \"total_ingested\": 27000, \"execution_time\": 16233396569}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3237 2c20 2270 726f  batch\": 27, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3237 3030 302c  ngested\": 27000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3632 3333 3339 3635 3639 7d0a  \": 16233396569}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155378771
+  },
+  {
+    "type": "incoming",
+    "seq": 28,
+    "message": "data: {\"status\": \"processing\", \"batch\": 28, \"processed_in_batch\": 1000, \"total_ingested\": 28000, \"execution_time\": 16500428414}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3238 2c20 2270 726f  batch\": 28, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3238 3030 302c  ngested\": 28000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3635 3030 3432 3834 3134 7d0a  \": 16500428414}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155379038
+  },
+  {
+    "type": "incoming",
+    "seq": 29,
+    "message": "data: {\"status\": \"processing\", \"batch\": 29, \"processed_in_batch\": 1000, \"total_ingested\": 29000, \"execution_time\": 16747308645}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3239 2c20 2270 726f  batch\": 29, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3239 3030 302c  ngested\": 29000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3637 3437 3330 3836 3435 7d0a  \": 16747308645}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155379285
+  },
+  {
+    "type": "incoming",
+    "seq": 30,
+    "message": "data: {\"status\": \"processing\", \"batch\": 30, \"processed_in_batch\": 1000, \"total_ingested\": 30000, \"execution_time\": 17075279054}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3330 2c20 2270 726f  batch\": 30, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3330 3030 302c  ngested\": 30000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3730 3735 3237 3930 3534 7d0a  \": 17075279054}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155379613
+  },
+  {
+    "type": "incoming",
+    "seq": 31,
+    "message": "data: {\"status\": \"processing\", \"batch\": 31, \"processed_in_batch\": 1000, \"total_ingested\": 31000, \"execution_time\": 18188946501}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3331 2c20 2270 726f  batch\": 31, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3331 3030 302c  ngested\": 31000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3831 3838 3934 3635 3031 7d0a  \": 18188946501}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155380727
+  },
+  {
+    "type": "incoming",
+    "seq": 32,
+    "message": "data: {\"status\": \"processing\", \"batch\": 32, \"processed_in_batch\": 1000, \"total_ingested\": 32000, \"execution_time\": 18457615788}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3332 2c20 2270 726f  batch\": 32, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3332 3030 302c  ngested\": 32000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3834 3537 3631 3537 3838 7d0a  \": 18457615788}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155380996
+  },
+  {
+    "type": "incoming",
+    "seq": 33,
+    "message": "data: {\"status\": \"processing\", \"batch\": 33, \"processed_in_batch\": 1000, \"total_ingested\": 33000, \"execution_time\": 18810637342}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3333 2c20 2270 726f  batch\": 33, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3333 3030 302c  ngested\": 33000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3838 3130 3633 3733 3432 7d0a  \": 18810637342}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155381349
+  },
+  {
+    "type": "incoming",
+    "seq": 34,
+    "message": "data: {\"status\": \"processing\", \"batch\": 34, \"processed_in_batch\": 1000, \"total_ingested\": 34000, \"execution_time\": 19121346081}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3334 2c20 2270 726f  batch\": 34, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3334 3030 302c  ngested\": 34000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3931 3231 3334 3630 3831 7d0a  \": 19121346081}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155381660
+  },
+  {
+    "type": "incoming",
+    "seq": 35,
+    "message": "data: {\"status\": \"processing\", \"batch\": 35, \"processed_in_batch\": 1000, \"total_ingested\": 35000, \"execution_time\": 19460819513}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3335 2c20 2270 726f  batch\": 35, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3335 3030 302c  ngested\": 35000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2031 3934 3630 3831 3935 3133 7d0a  \": 19460819513}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155381999
+  },
+  {
+    "type": "incoming",
+    "seq": 36,
+    "message": "data: {\"status\": \"processing\", \"batch\": 36, \"processed_in_batch\": 1000, \"total_ingested\": 36000, \"execution_time\": 20517645023}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3336 2c20 2270 726f  batch\": 36, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3336 3030 302c  ngested\": 36000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3035 3137 3634 3530 3233 7d0a  \": 20517645023}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155383056
+  },
+  {
+    "type": "incoming",
+    "seq": 37,
+    "message": "data: {\"status\": \"processing\", \"batch\": 37, \"processed_in_batch\": 1000, \"total_ingested\": 37000, \"execution_time\": 20665879388}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3337 2c20 2270 726f  batch\": 37, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3337 3030 302c  ngested\": 37000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3036 3635 3837 3933 3838 7d0a  \": 20665879388}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155383204
+  },
+  {
+    "type": "incoming",
+    "seq": 38,
+    "message": "data: {\"status\": \"processing\", \"batch\": 38, \"processed_in_batch\": 1000, \"total_ingested\": 38000, \"execution_time\": 20808517692}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3338 2c20 2270 726f  batch\": 38, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3338 3030 302c  ngested\": 38000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3038 3038 3531 3736 3932 7d0a  \": 20808517692}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155383346
+  },
+  {
+    "type": "incoming",
+    "seq": 39,
+    "message": "data: {\"status\": \"processing\", \"batch\": 39, \"processed_in_batch\": 1000, \"total_ingested\": 39000, \"execution_time\": 20976004311}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3339 2c20 2270 726f  batch\": 39, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3339 3030 302c  ngested\": 39000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3039 3736 3030 3433 3131 7d0a  \": 20976004311}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155383514
+  },
+  {
+    "type": "incoming",
+    "seq": 40,
+    "message": "data: {\"status\": \"processing\", \"batch\": 40, \"processed_in_batch\": 1000, \"total_ingested\": 40000, \"execution_time\": 21158978431}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3430 2c20 2270 726f  batch\": 40, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3430 3030 302c  ngested\": 40000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3131 3538 3937 3834 3331 7d0a  \": 21158978431}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155383697
+  },
+  {
+    "type": "incoming",
+    "seq": 41,
+    "message": "data: {\"status\": \"processing\", \"batch\": 41, \"processed_in_batch\": 1000, \"total_ingested\": 41000, \"execution_time\": 22429900208}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3431 2c20 2270 726f  batch\": 41, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3431 3030 302c  ngested\": 41000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3234 3239 3930 3032 3038 7d0a  \": 22429900208}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155384968
+  },
+  {
+    "type": "incoming",
+    "seq": 42,
+    "message": "data: {\"status\": \"processing\", \"batch\": 42, \"processed_in_batch\": 1000, \"total_ingested\": 42000, \"execution_time\": 22639974528}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3432 2c20 2270 726f  batch\": 42, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3432 3030 302c  ngested\": 42000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3236 3339 3937 3435 3238 7d0a  \": 22639974528}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155385178
+  },
+  {
+    "type": "incoming",
+    "seq": 43,
+    "message": "data: {\"status\": \"processing\", \"batch\": 43, \"processed_in_batch\": 1000, \"total_ingested\": 43000, \"execution_time\": 22782387238}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3433 2c20 2270 726f  batch\": 43, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3433 3030 302c  ngested\": 43000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3237 3832 3338 3732 3338 7d0a  \": 22782387238}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155385320
+  },
+  {
+    "type": "incoming",
+    "seq": 44,
+    "message": "data: {\"status\": \"processing\", \"batch\": 44, \"processed_in_batch\": 1000, \"total_ingested\": 44000, \"execution_time\": 23080068843}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3434 2c20 2270 726f  batch\": 44, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3434 3030 302c  ngested\": 44000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3330 3830 3036 3838 3433 7d0a  \": 23080068843}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155385618
+  },
+  {
+    "type": "incoming",
+    "seq": 45,
+    "message": "data: {\"status\": \"processing\", \"batch\": 45, \"processed_in_batch\": 1000, \"total_ingested\": 45000, \"execution_time\": 23420144235}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3435 2c20 2270 726f  batch\": 45, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3435 3030 302c  ngested\": 45000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3334 3230 3134 3432 3335 7d0a  \": 23420144235}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155385958
+  },
+  {
+    "type": "incoming",
+    "seq": 46,
+    "message": "data: {\"status\": \"processing\", \"batch\": 46, \"processed_in_batch\": 1000, \"total_ingested\": 46000, \"execution_time\": 24781861409}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3436 2c20 2270 726f  batch\": 46, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3436 3030 302c  ngested\": 46000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3437 3831 3836 3134 3039 7d0a  \": 24781861409}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155387320
+  },
+  {
+    "type": "incoming",
+    "seq": 47,
+    "message": "data: {\"status\": \"processing\", \"batch\": 47, \"processed_in_batch\": 1000, \"total_ingested\": 47000, \"execution_time\": 24976430986}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3437 2c20 2270 726f  batch\": 47, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3437 3030 302c  ngested\": 47000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3439 3736 3433 3039 3836 7d0a  \": 24976430986}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155387514
+  },
+  {
+    "type": "incoming",
+    "seq": 48,
+    "message": "data: {\"status\": \"processing\", \"batch\": 48, \"processed_in_batch\": 1000, \"total_ingested\": 48000, \"execution_time\": 25312768314}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3438 2c20 2270 726f  batch\": 48, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3438 3030 302c  ngested\": 48000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3533 3132 3736 3833 3134 7d0a  \": 25312768314}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155387851
+  },
+  {
+    "type": "incoming",
+    "seq": 49,
+    "message": "data: {\"status\": \"processing\", \"batch\": 49, \"processed_in_batch\": 1000, \"total_ingested\": 49000, \"execution_time\": 25760983077}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3439 2c20 2270 726f  batch\": 49, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3439 3030 302c  ngested\": 49000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3537 3630 3938 3330 3737 7d0a  \": 25760983077}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155388299
+  },
+  {
+    "type": "incoming",
+    "seq": 50,
+    "message": "data: {\"status\": \"processing\", \"batch\": 50, \"processed_in_batch\": 1000, \"total_ingested\": 50000, \"execution_time\": 26097808120}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3530 2c20 2270 726f  batch\": 50, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3530 3030 302c  ngested\": 50000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3630 3937 3830 3831 3230 7d0a  \": 26097808120}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155388636
+  },
+  {
+    "type": "incoming",
+    "seq": 51,
+    "message": "data: {\"status\": \"processing\", \"batch\": 51, \"processed_in_batch\": 1000, \"total_ingested\": 51000, \"execution_time\": 27164302472}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3531 2c20 2270 726f  batch\": 51, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3531 3030 302c  ngested\": 51000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3731 3634 3330 3234 3732 7d0a  \": 27164302472}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155389702
+  },
+  {
+    "type": "incoming",
+    "seq": 52,
+    "message": "data: {\"status\": \"processing\", \"batch\": 52, \"processed_in_batch\": 1000, \"total_ingested\": 52000, \"execution_time\": 27564536795}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3532 2c20 2270 726f  batch\": 52, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3532 3030 302c  ngested\": 52000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3735 3634 3533 3637 3935 7d0a  \": 27564536795}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155390102
+  },
+  {
+    "type": "incoming",
+    "seq": 53,
+    "message": "data: {\"status\": \"processing\", \"batch\": 53, \"processed_in_batch\": 1000, \"total_ingested\": 53000, \"execution_time\": 27815758003}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3533 2c20 2270 726f  batch\": 53, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3533 3030 302c  ngested\": 53000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3738 3135 3735 3830 3033 7d0a  \": 27815758003}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155390353
+  },
+  {
+    "type": "incoming",
+    "seq": 54,
+    "message": "data: {\"status\": \"processing\", \"batch\": 54, \"processed_in_batch\": 1000, \"total_ingested\": 54000, \"execution_time\": 28086005501}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3534 2c20 2270 726f  batch\": 54, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3534 3030 302c  ngested\": 54000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3830 3836 3030 3535 3031 7d0a  \": 28086005501}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155390624
+  },
+  {
+    "type": "incoming",
+    "seq": 55,
+    "message": "data: {\"status\": \"processing\", \"batch\": 55, \"processed_in_batch\": 1000, \"total_ingested\": 55000, \"execution_time\": 28305933330}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3535 2c20 2270 726f  batch\": 55, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3535 3030 302c  ngested\": 55000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3833 3035 3933 3333 3330 7d0a  \": 28305933330}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155390844
+  },
+  {
+    "type": "incoming",
+    "seq": 56,
+    "message": "data: {\"status\": \"processing\", \"batch\": 56, \"processed_in_batch\": 1000, \"total_ingested\": 56000, \"execution_time\": 29252579090}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3536 2c20 2270 726f  batch\": 56, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3536 3030 302c  ngested\": 56000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3932 3532 3537 3930 3930 7d0a  \": 29252579090}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155391790
+  },
+  {
+    "type": "incoming",
+    "seq": 57,
+    "message": "data: {\"status\": \"processing\", \"batch\": 57, \"processed_in_batch\": 1000, \"total_ingested\": 57000, \"execution_time\": 29471500711}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3537 2c20 2270 726f  batch\": 57, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3537 3030 302c  ngested\": 57000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3934 3731 3530 3037 3131 7d0a  \": 29471500711}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155392009
+  },
+  {
+    "type": "incoming",
+    "seq": 58,
+    "message": "data: {\"status\": \"processing\", \"batch\": 58, \"processed_in_batch\": 1000, \"total_ingested\": 58000, \"execution_time\": 29707806722}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3538 2c20 2270 726f  batch\": 58, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3538 3030 302c  ngested\": 58000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3937 3037 3830 3637 3232 7d0a  \": 29707806722}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155392246
+  },
+  {
+    "type": "incoming",
+    "seq": 59,
+    "message": "data: {\"status\": \"processing\", \"batch\": 59, \"processed_in_batch\": 1000, \"total_ingested\": 59000, \"execution_time\": 29966881456}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3539 2c20 2270 726f  batch\": 59, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3539 3030 302c  ngested\": 59000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2032 3939 3636 3838 3134 3536 7d0a  \": 29966881456}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155392505
+  },
+  {
+    "type": "incoming",
+    "seq": 60,
+    "message": "data: {\"status\": \"processing\", \"batch\": 60, \"processed_in_batch\": 1000, \"total_ingested\": 60000, \"execution_time\": 30183134349}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3630 2c20 2270 726f  batch\": 60, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3630 3030 302c  ngested\": 60000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3031 3833 3133 3433 3439 7d0a  \": 30183134349}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155392721
+  },
+  {
+    "type": "incoming",
+    "seq": 61,
+    "message": "data: {\"status\": \"processing\", \"batch\": 61, \"processed_in_batch\": 1000, \"total_ingested\": 61000, \"execution_time\": 31058148982}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3631 2c20 2270 726f  batch\": 61, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3631 3030 302c  ngested\": 61000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3130 3538 3134 3839 3832 7d0a  \": 31058148982}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155393596
+  },
+  {
+    "type": "incoming",
+    "seq": 62,
+    "message": "data: {\"status\": \"processing\", \"batch\": 62, \"processed_in_batch\": 1000, \"total_ingested\": 62000, \"execution_time\": 31263557257}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3632 2c20 2270 726f  batch\": 62, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3632 3030 302c  ngested\": 62000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3132 3633 3535 3732 3537 7d0a  \": 31263557257}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155393801
+  },
+  {
+    "type": "incoming",
+    "seq": 63,
+    "message": "data: {\"status\": \"processing\", \"batch\": 63, \"processed_in_batch\": 1000, \"total_ingested\": 63000, \"execution_time\": 31513714077}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3633 2c20 2270 726f  batch\": 63, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3633 3030 302c  ngested\": 63000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3135 3133 3731 3430 3737 7d0a  \": 31513714077}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155394052
+  },
+  {
+    "type": "incoming",
+    "seq": 64,
+    "message": "data: {\"status\": \"processing\", \"batch\": 64, \"processed_in_batch\": 1000, \"total_ingested\": 64000, \"execution_time\": 31844880933}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3634 2c20 2270 726f  batch\": 64, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3634 3030 302c  ngested\": 64000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3138 3434 3838 3039 3333 7d0a  \": 31844880933}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155394383
+  },
+  {
+    "type": "incoming",
+    "seq": 65,
+    "message": "data: {\"status\": \"processing\", \"batch\": 65, \"processed_in_batch\": 1000, \"total_ingested\": 65000, \"execution_time\": 32035066394}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3635 2c20 2270 726f  batch\": 65, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3635 3030 302c  ngested\": 65000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3230 3335 3036 3633 3934 7d0a  \": 32035066394}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155394573
+  },
+  {
+    "type": "incoming",
+    "seq": 66,
+    "message": "data: {\"status\": \"processing\", \"batch\": 66, \"processed_in_batch\": 1000, \"total_ingested\": 66000, \"execution_time\": 32983983036}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3636 2c20 2270 726f  batch\": 66, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3636 3030 302c  ngested\": 66000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3239 3833 3938 3330 3336 7d0a  \": 32983983036}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155395522
+  },
+  {
+    "type": "incoming",
+    "seq": 67,
+    "message": "data: {\"status\": \"processing\", \"batch\": 67, \"processed_in_batch\": 1000, \"total_ingested\": 67000, \"execution_time\": 33429082523}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3637 2c20 2270 726f  batch\": 67, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3637 3030 302c  ngested\": 67000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3334 3239 3038 3235 3233 7d0a  \": 33429082523}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155395967
+  },
+  {
+    "type": "incoming",
+    "seq": 68,
+    "message": "data: {\"status\": \"processing\", \"batch\": 68, \"processed_in_batch\": 1000, \"total_ingested\": 68000, \"execution_time\": 33745237691}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3638 2c20 2270 726f  batch\": 68, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3638 3030 302c  ngested\": 68000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3337 3435 3233 3736 3931 7d0a  \": 33745237691}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155396283
+  },
+  {
+    "type": "incoming",
+    "seq": 69,
+    "message": "data: {\"status\": \"processing\", \"batch\": 69, \"processed_in_batch\": 1000, \"total_ingested\": 69000, \"execution_time\": 34095924324}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3639 2c20 2270 726f  batch\": 69, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3639 3030 302c  ngested\": 69000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3430 3935 3932 3433 3234 7d0a  \": 34095924324}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155396634
+  },
+  {
+    "type": "incoming",
+    "seq": 70,
+    "message": "data: {\"status\": \"processing\", \"batch\": 70, \"processed_in_batch\": 1000, \"total_ingested\": 70000, \"execution_time\": 34366190878}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3730 2c20 2270 726f  batch\": 70, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3730 3030 302c  ngested\": 70000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3433 3636 3139 3038 3738 7d0a  \": 34366190878}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155396904
+  },
+  {
+    "type": "incoming",
+    "seq": 71,
+    "message": "data: {\"status\": \"processing\", \"batch\": 71, \"processed_in_batch\": 1000, \"total_ingested\": 71000, \"execution_time\": 35383553871}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3731 2c20 2270 726f  batch\": 71, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3731 3030 302c  ngested\": 71000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3533 3833 3535 3338 3731 7d0a  \": 35383553871}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155397921
+  },
+  {
+    "type": "incoming",
+    "seq": 72,
+    "message": "data: {\"status\": \"processing\", \"batch\": 72, \"processed_in_batch\": 1000, \"total_ingested\": 72000, \"execution_time\": 35529219946}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3732 2c20 2270 726f  batch\": 72, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3732 3030 302c  ngested\": 72000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3535 3239 3231 3939 3436 7d0a  \": 35529219946}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155398067
+  },
+  {
+    "type": "incoming",
+    "seq": 73,
+    "message": "data: {\"status\": \"processing\", \"batch\": 73, \"processed_in_batch\": 1000, \"total_ingested\": 73000, \"execution_time\": 35640542280}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3733 2c20 2270 726f  batch\": 73, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3733 3030 302c  ngested\": 73000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3536 3430 3534 3232 3830 7d0a  \": 35640542280}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155398178
+  },
+  {
+    "type": "incoming",
+    "seq": 74,
+    "message": "data: {\"status\": \"processing\", \"batch\": 74, \"processed_in_batch\": 1000, \"total_ingested\": 74000, \"execution_time\": 35753338389}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3734 2c20 2270 726f  batch\": 74, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3734 3030 302c  ngested\": 74000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3537 3533 3333 3833 3839 7d0a  \": 35753338389}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155398291
+  },
+  {
+    "type": "incoming",
+    "seq": 75,
+    "message": "data: {\"status\": \"processing\", \"batch\": 75, \"processed_in_batch\": 1000, \"total_ingested\": 75000, \"execution_time\": 35895066855}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3735 2c20 2270 726f  batch\": 75, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3735 3030 302c  ngested\": 75000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3538 3935 3036 3638 3535 7d0a  \": 35895066855}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155398433
+  },
+  {
+    "type": "incoming",
+    "seq": 76,
+    "message": "data: {\"status\": \"processing\", \"batch\": 76, \"processed_in_batch\": 1000, \"total_ingested\": 76000, \"execution_time\": 36816288491}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3736 2c20 2270 726f  batch\": 76, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3736 3030 302c  ngested\": 76000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3638 3136 3238 3834 3931 7d0a  \": 36816288491}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155399354
+  },
+  {
+    "type": "incoming",
+    "seq": 77,
+    "message": "data: {\"status\": \"processing\", \"batch\": 77, \"processed_in_batch\": 1000, \"total_ingested\": 77000, \"execution_time\": 36915893809}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3737 2c20 2270 726f  batch\": 77, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3737 3030 302c  ngested\": 77000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3639 3135 3839 3338 3039 7d0a  \": 36915893809}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155399454
+  },
+  {
+    "type": "incoming",
+    "seq": 78,
+    "message": "data: {\"status\": \"processing\", \"batch\": 78, \"processed_in_batch\": 1000, \"total_ingested\": 78000, \"execution_time\": 37108911684}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3738 2c20 2270 726f  batch\": 78, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3738 3030 302c  ngested\": 78000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3731 3038 3931 3136 3834 7d0a  \": 37108911684}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155399647
+  },
+  {
+    "type": "incoming",
+    "seq": 79,
+    "message": "data: {\"status\": \"processing\", \"batch\": 79, \"processed_in_batch\": 1000, \"total_ingested\": 79000, \"execution_time\": 37393320474}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3739 2c20 2270 726f  batch\": 79, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3739 3030 302c  ngested\": 79000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3733 3933 3332 3034 3734 7d0a  \": 37393320474}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155399931
+  },
+  {
+    "type": "incoming",
+    "seq": 80,
+    "message": "data: {\"status\": \"processing\", \"batch\": 80, \"processed_in_batch\": 1000, \"total_ingested\": 80000, \"execution_time\": 37753572305}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3830 2c20 2270 726f  batch\": 80, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3830 3030 302c  ngested\": 80000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3737 3533 3537 3233 3035 7d0a  \": 37753572305}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155400292
+  },
+  {
+    "type": "incoming",
+    "seq": 81,
+    "message": "data: {\"status\": \"processing\", \"batch\": 81, \"processed_in_batch\": 1000, \"total_ingested\": 81000, \"execution_time\": 38997606850}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3831 2c20 2270 726f  batch\": 81, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3831 3030 302c  ngested\": 81000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3839 3937 3630 3638 3530 7d0a  \": 38997606850}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155401535
+  },
+  {
+    "type": "incoming",
+    "seq": 82,
+    "message": "data: {\"status\": \"processing\", \"batch\": 82, \"processed_in_batch\": 1000, \"total_ingested\": 82000, \"execution_time\": 39370204827}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3832 2c20 2270 726f  batch\": 82, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3832 3030 302c  ngested\": 82000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3933 3730 3230 3438 3237 7d0a  \": 39370204827}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155401908
+  },
+  {
+    "type": "incoming",
+    "seq": 83,
+    "message": "data: {\"status\": \"processing\", \"batch\": 83, \"processed_in_batch\": 1000, \"total_ingested\": 83000, \"execution_time\": 39676400548}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3833 2c20 2270 726f  batch\": 83, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3833 3030 302c  ngested\": 83000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3936 3736 3430 3035 3438 7d0a  \": 39676400548}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155402214
+  },
+  {
+    "type": "incoming",
+    "seq": 84,
+    "message": "data: {\"status\": \"processing\", \"batch\": 84, \"processed_in_batch\": 1000, \"total_ingested\": 84000, \"execution_time\": 39983687837}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3834 2c20 2270 726f  batch\": 84, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3834 3030 302c  ngested\": 84000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2033 3939 3833 3638 3738 3337 7d0a  \": 39983687837}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155402522
+  },
+  {
+    "type": "incoming",
+    "seq": 85,
+    "message": "data: {\"status\": \"processing\", \"batch\": 85, \"processed_in_batch\": 1000, \"total_ingested\": 85000, \"execution_time\": 40342859881}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3835 2c20 2270 726f  batch\": 85, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3835 3030 302c  ngested\": 85000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3033 3432 3835 3938 3831 7d0a  \": 40342859881}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155402881
+  },
+  {
+    "type": "incoming",
+    "seq": 86,
+    "message": "data: {\"status\": \"processing\", \"batch\": 86, \"processed_in_batch\": 1000, \"total_ingested\": 86000, \"execution_time\": 41342857180}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3836 2c20 2270 726f  batch\": 86, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3836 3030 302c  ngested\": 86000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3133 3432 3835 3731 3830 7d0a  \": 41342857180}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155403881
+  },
+  {
+    "type": "incoming",
+    "seq": 87,
+    "message": "data: {\"status\": \"processing\", \"batch\": 87, \"processed_in_batch\": 1000, \"total_ingested\": 87000, \"execution_time\": 41636304129}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3837 2c20 2270 726f  batch\": 87, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3837 3030 302c  ngested\": 87000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3136 3336 3330 3431 3239 7d0a  \": 41636304129}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155404174
+  },
+  {
+    "type": "incoming",
+    "seq": 88,
+    "message": "data: {\"status\": \"processing\", \"batch\": 88, \"processed_in_batch\": 1000, \"total_ingested\": 88000, \"execution_time\": 42003083377}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3838 2c20 2270 726f  batch\": 88, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3838 3030 302c  ngested\": 88000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3230 3033 3038 3333 3737 7d0a  \": 42003083377}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155404541
+  },
+  {
+    "type": "incoming",
+    "seq": 89,
+    "message": "data: {\"status\": \"processing\", \"batch\": 89, \"processed_in_batch\": 1000, \"total_ingested\": 89000, \"execution_time\": 42236363420}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3839 2c20 2270 726f  batch\": 89, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3839 3030 302c  ngested\": 89000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3232 3336 3336 3334 3230 7d0a  \": 42236363420}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155404774
+  },
+  {
+    "type": "incoming",
+    "seq": 90,
+    "message": "data: {\"status\": \"processing\", \"batch\": 90, \"processed_in_batch\": 1000, \"total_ingested\": 90000, \"execution_time\": 42521086320}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3930 2c20 2270 726f  batch\": 90, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3930 3030 302c  ngested\": 90000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3235 3231 3038 3633 3230 7d0a  \": 42521086320}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155405059
+  },
+  {
+    "type": "incoming",
+    "seq": 91,
+    "message": "data: {\"status\": \"processing\", \"batch\": 91, \"processed_in_batch\": 1000, \"total_ingested\": 91000, \"execution_time\": 43773510347}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3931 2c20 2270 726f  batch\": 91, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3931 3030 302c  ngested\": 91000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3337 3733 3531 3033 3437 7d0a  \": 43773510347}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155406312
+  },
+  {
+    "type": "incoming",
+    "seq": 92,
+    "message": "data: {\"status\": \"processing\", \"batch\": 92, \"processed_in_batch\": 1000, \"total_ingested\": 92000, \"execution_time\": 44095956620}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3932 2c20 2270 726f  batch\": 92, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3932 3030 302c  ngested\": 92000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3430 3935 3935 3636 3230 7d0a  \": 44095956620}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155406634
+  },
+  {
+    "type": "incoming",
+    "seq": 93,
+    "message": "data: {\"status\": \"processing\", \"batch\": 93, \"processed_in_batch\": 1000, \"total_ingested\": 93000, \"execution_time\": 44396219238}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3933 2c20 2270 726f  batch\": 93, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3933 3030 302c  ngested\": 93000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3433 3936 3231 3932 3338 7d0a  \": 44396219238}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155406934
+  },
+  {
+    "type": "incoming",
+    "seq": 94,
+    "message": "data: {\"status\": \"processing\", \"batch\": 94, \"processed_in_batch\": 1000, \"total_ingested\": 94000, \"execution_time\": 44739823852}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3934 2c20 2270 726f  batch\": 94, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3934 3030 302c  ngested\": 94000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3437 3339 3832 3338 3532 7d0a  \": 44739823852}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155407278
+  },
+  {
+    "type": "incoming",
+    "seq": 95,
+    "message": "data: {\"status\": \"processing\", \"batch\": 95, \"processed_in_batch\": 1000, \"total_ingested\": 95000, \"execution_time\": 45113873693}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3935 2c20 2270 726f  batch\": 95, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3935 3030 302c  ngested\": 95000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3531 3133 3837 3336 3933 7d0a  \": 45113873693}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155407652
+  },
+  {
+    "type": "incoming",
+    "seq": 96,
+    "message": "data: {\"status\": \"processing\", \"batch\": 96, \"processed_in_batch\": 1000, \"total_ingested\": 96000, \"execution_time\": 46583669093}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3936 2c20 2270 726f  batch\": 96, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3936 3030 302c  ngested\": 96000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3635 3833 3636 3930 3933 7d0a  \": 46583669093}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155409121
+  },
+  {
+    "type": "incoming",
+    "seq": 97,
+    "message": "data: {\"status\": \"processing\", \"batch\": 97, \"processed_in_batch\": 1000, \"total_ingested\": 97000, \"execution_time\": 47110154532}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3937 2c20 2270 726f  batch\": 97, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3937 3030 302c  ngested\": 97000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3731 3130 3135 3435 3332 7d0a  \": 47110154532}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155409648
+  },
+  {
+    "type": "incoming",
+    "seq": 98,
+    "message": "data: {\"status\": \"processing\", \"batch\": 98, \"processed_in_batch\": 1000, \"total_ingested\": 98000, \"execution_time\": 47409430960}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3938 2c20 2270 726f  batch\": 98, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3938 3030 302c  ngested\": 98000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3734 3039 3433 3039 3630 7d0a  \": 47409430960}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155409947
+  },
+  {
+    "type": "incoming",
+    "seq": 99,
+    "message": "data: {\"status\": \"processing\", \"batch\": 99, \"processed_in_batch\": 1000, \"total_ingested\": 99000, \"execution_time\": 47667507180}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3939 2c20 2270 726f  batch\": 99, \"pro\n00000030: 6365 7373 6564 5f69 6e5f 6261 7463 6822  cessed_in_batch\"\n00000040: 3a20 3130 3030 2c20 2274 6f74 616c 5f69  : 1000, \"total_i\n00000050: 6e67 6573 7465 6422 3a20 3939 3030 302c  ngested\": 99000,\n00000060: 2022 6578 6563 7574 696f 6e5f 7469 6d65   \"execution_time\n00000070: 223a 2034 3736 3637 3530 3731 3830 7d0a  \": 47667507180}.\n00000080: 000a                                       .\n",
+    "timestamp": 1787155410205
+  },
+  {
+    "type": "incoming",
+    "seq": 100,
+    "message": "data: {\"status\": \"processing\", \"batch\": 100, \"processed_in_batch\": 1000, \"total_ingested\": 100000, \"execution_time\": 47965976653}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 302c 2022 7072  batch\": 100, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3030 3030  ingested\": 10000\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2034 3739 3635 3937 3636 3533  me\": 47965976653\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155410504
+  },
+  {
+    "type": "incoming",
+    "seq": 101,
+    "message": "data: {\"status\": \"processing\", \"batch\": 101, \"processed_in_batch\": 1000, \"total_ingested\": 101000, \"execution_time\": 49333909890}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 312c 2022 7072  batch\": 101, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3031 3030  ingested\": 10100\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2034 3933 3333 3930 3938 3930  me\": 49333909890\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155411872
+  },
+  {
+    "type": "incoming",
+    "seq": 102,
+    "message": "data: {\"status\": \"processing\", \"batch\": 102, \"processed_in_batch\": 1000, \"total_ingested\": 102000, \"execution_time\": 49632442231}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 322c 2022 7072  batch\": 102, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3032 3030  ingested\": 10200\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2034 3936 3332 3434 3232 3331  me\": 49632442231\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155412170
+  },
+  {
+    "type": "incoming",
+    "seq": 103,
+    "message": "data: {\"status\": \"processing\", \"batch\": 103, \"processed_in_batch\": 1000, \"total_ingested\": 103000, \"execution_time\": 49936719823}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 332c 2022 7072  batch\": 103, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3033 3030  ingested\": 10300\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2034 3939 3336 3731 3938 3233  me\": 49936719823\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155412475
+  },
+  {
+    "type": "incoming",
+    "seq": 104,
+    "message": "data: {\"status\": \"processing\", \"batch\": 104, \"processed_in_batch\": 1000, \"total_ingested\": 104000, \"execution_time\": 50253500926}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 342c 2022 7072  batch\": 104, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3034 3030  ingested\": 10400\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3032 3533 3530 3039 3236  me\": 50253500926\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155412792
+  },
+  {
+    "type": "incoming",
+    "seq": 105,
+    "message": "data: {\"status\": \"processing\", \"batch\": 105, \"processed_in_batch\": 1000, \"total_ingested\": 105000, \"execution_time\": 50514967087}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 352c 2022 7072  batch\": 105, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3035 3030  ingested\": 10500\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3035 3134 3936 3730 3837  me\": 50514967087\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155413053
+  },
+  {
+    "type": "incoming",
+    "seq": 106,
+    "message": "data: {\"status\": \"processing\", \"batch\": 106, \"processed_in_batch\": 1000, \"total_ingested\": 106000, \"execution_time\": 51748045925}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 362c 2022 7072  batch\": 106, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3036 3030  ingested\": 10600\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3137 3438 3034 3539 3235  me\": 51748045925\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155414286
+  },
+  {
+    "type": "incoming",
+    "seq": 107,
+    "message": "data: {\"status\": \"processing\", \"batch\": 107, \"processed_in_batch\": 1000, \"total_ingested\": 107000, \"execution_time\": 52084755983}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 372c 2022 7072  batch\": 107, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3037 3030  ingested\": 10700\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3230 3834 3735 3539 3833  me\": 52084755983\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155414623
+  },
+  {
+    "type": "incoming",
+    "seq": 108,
+    "message": "data: {\"status\": \"processing\", \"batch\": 108, \"processed_in_batch\": 1000, \"total_ingested\": 108000, \"execution_time\": 52453997401}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 382c 2022 7072  batch\": 108, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3038 3030  ingested\": 10800\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3234 3533 3939 3734 3031  me\": 52453997401\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155414992
+  },
+  {
+    "type": "incoming",
+    "seq": 109,
+    "message": "data: {\"status\": \"processing\", \"batch\": 109, \"processed_in_batch\": 1000, \"total_ingested\": 109000, \"execution_time\": 52799895809}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3130 392c 2022 7072  batch\": 109, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3039 3030  ingested\": 10900\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3237 3939 3839 3538 3039  me\": 52799895809\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155415338
+  },
+  {
+    "type": "incoming",
+    "seq": 110,
+    "message": "data: {\"status\": \"processing\", \"batch\": 110, \"processed_in_batch\": 1000, \"total_ingested\": 110000, \"execution_time\": 53161694132}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 302c 2022 7072  batch\": 110, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3130 3030  ingested\": 11000\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3331 3631 3639 3431 3332  me\": 53161694132\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155415700
+  },
+  {
+    "type": "incoming",
+    "seq": 111,
+    "message": "data: {\"status\": \"processing\", \"batch\": 111, \"processed_in_batch\": 1000, \"total_ingested\": 111000, \"execution_time\": 54194324773}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 312c 2022 7072  batch\": 111, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3131 3030  ingested\": 11100\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3431 3934 3332 3437 3733  me\": 54194324773\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155416732
+  },
+  {
+    "type": "incoming",
+    "seq": 112,
+    "message": "data: {\"status\": \"processing\", \"batch\": 112, \"processed_in_batch\": 1000, \"total_ingested\": 112000, \"execution_time\": 54540597624}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 322c 2022 7072  batch\": 112, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3132 3030  ingested\": 11200\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3435 3430 3539 3736 3234  me\": 54540597624\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155417078
+  },
+  {
+    "type": "incoming",
+    "seq": 113,
+    "message": "data: {\"status\": \"processing\", \"batch\": 113, \"processed_in_batch\": 1000, \"total_ingested\": 113000, \"execution_time\": 54868535501}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 332c 2022 7072  batch\": 113, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3133 3030  ingested\": 11300\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3438 3638 3533 3535 3031  me\": 54868535501\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155417406
+  },
+  {
+    "type": "incoming",
+    "seq": 114,
+    "message": "data: {\"status\": \"processing\", \"batch\": 114, \"processed_in_batch\": 1000, \"total_ingested\": 114000, \"execution_time\": 55210931527}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 342c 2022 7072  batch\": 114, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3134 3030  ingested\": 11400\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3532 3130 3933 3135 3237  me\": 55210931527\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155417749
+  },
+  {
+    "type": "incoming",
+    "seq": 115,
+    "message": "data: {\"status\": \"processing\", \"batch\": 115, \"processed_in_batch\": 1000, \"total_ingested\": 115000, \"execution_time\": 55541249931}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 352c 2022 7072  batch\": 115, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3135 3030  ingested\": 11500\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3535 3431 3234 3939 3331  me\": 55541249931\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155418079
+  },
+  {
+    "type": "incoming",
+    "seq": 116,
+    "message": "data: {\"status\": \"processing\", \"batch\": 116, \"processed_in_batch\": 1000, \"total_ingested\": 116000, \"execution_time\": 56576757421}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 362c 2022 7072  batch\": 116, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3136 3030  ingested\": 11600\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3635 3736 3735 3734 3231  me\": 56576757421\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155419115
+  },
+  {
+    "type": "incoming",
+    "seq": 117,
+    "message": "data: {\"status\": \"processing\", \"batch\": 117, \"processed_in_batch\": 1000, \"total_ingested\": 117000, \"execution_time\": 56934415575}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 372c 2022 7072  batch\": 117, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3137 3030  ingested\": 11700\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3639 3334 3431 3535 3735  me\": 56934415575\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155419472
+  },
+  {
+    "type": "incoming",
+    "seq": 118,
+    "message": "data: {\"status\": \"processing\", \"batch\": 118, \"processed_in_batch\": 1000, \"total_ingested\": 118000, \"execution_time\": 57212189204}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 382c 2022 7072  batch\": 118, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3138 3030  ingested\": 11800\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3732 3132 3138 3932 3034  me\": 57212189204\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155419750
+  },
+  {
+    "type": "incoming",
+    "seq": 119,
+    "message": "data: {\"status\": \"processing\", \"batch\": 119, \"processed_in_batch\": 1000, \"total_ingested\": 119000, \"execution_time\": 57557431732}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3131 392c 2022 7072  batch\": 119, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3139 3030  ingested\": 11900\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3735 3537 3433 3137 3332  me\": 57557431732\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155420095
+  },
+  {
+    "type": "incoming",
+    "seq": 120,
+    "message": "data: {\"status\": \"processing\", \"batch\": 120, \"processed_in_batch\": 1000, \"total_ingested\": 120000, \"execution_time\": 57895332253}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 302c 2022 7072  batch\": 120, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3230 3030  ingested\": 12000\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3738 3935 3333 3232 3533  me\": 57895332253\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155420433
+  },
+  {
+    "type": "incoming",
+    "seq": 121,
+    "message": "data: {\"status\": \"processing\", \"batch\": 121, \"processed_in_batch\": 1000, \"total_ingested\": 121000, \"execution_time\": 58913267129}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 312c 2022 7072  batch\": 121, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3231 3030  ingested\": 12100\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3839 3133 3236 3731 3239  me\": 58913267129\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155421451
+  },
+  {
+    "type": "incoming",
+    "seq": 122,
+    "message": "data: {\"status\": \"processing\", \"batch\": 122, \"processed_in_batch\": 1000, \"total_ingested\": 122000, \"execution_time\": 59271356132}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 322c 2022 7072  batch\": 122, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3232 3030  ingested\": 12200\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3932 3731 3335 3631 3332  me\": 59271356132\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155421810
+  },
+  {
+    "type": "incoming",
+    "seq": 123,
+    "message": "data: {\"status\": \"processing\", \"batch\": 123, \"processed_in_batch\": 1000, \"total_ingested\": 123000, \"execution_time\": 59561543785}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 332c 2022 7072  batch\": 123, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3233 3030  ingested\": 12300\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3935 3631 3534 3337 3835  me\": 59561543785\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155422100
+  },
+  {
+    "type": "incoming",
+    "seq": 124,
+    "message": "data: {\"status\": \"processing\", \"batch\": 124, \"processed_in_batch\": 1000, \"total_ingested\": 124000, \"execution_time\": 59927698512}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 342c 2022 7072  batch\": 124, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3234 3030  ingested\": 12400\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2035 3939 3237 3639 3835 3132  me\": 59927698512\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155422466
+  },
+  {
+    "type": "incoming",
+    "seq": 125,
+    "message": "data: {\"status\": \"processing\", \"batch\": 125, \"processed_in_batch\": 1000, \"total_ingested\": 125000, \"execution_time\": 60186393282}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 352c 2022 7072  batch\": 125, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3235 3030  ingested\": 12500\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3031 3836 3339 3332 3832  me\": 60186393282\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155422724
+  },
+  {
+    "type": "incoming",
+    "seq": 126,
+    "message": "data: {\"status\": \"processing\", \"batch\": 126, \"processed_in_batch\": 1000, \"total_ingested\": 126000, \"execution_time\": 61446422000}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 362c 2022 7072  batch\": 126, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3236 3030  ingested\": 12600\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3134 3436 3432 3230 3030  me\": 61446422000\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155423985
+  },
+  {
+    "type": "incoming",
+    "seq": 127,
+    "message": "data: {\"status\": \"processing\", \"batch\": 127, \"processed_in_batch\": 1000, \"total_ingested\": 127000, \"execution_time\": 61671487319}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 372c 2022 7072  batch\": 127, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3237 3030  ingested\": 12700\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3136 3731 3438 3733 3139  me\": 61671487319\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155424209
+  },
+  {
+    "type": "incoming",
+    "seq": 128,
+    "message": "data: {\"status\": \"processing\", \"batch\": 128, \"processed_in_batch\": 1000, \"total_ingested\": 128000, \"execution_time\": 62013704830}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 382c 2022 7072  batch\": 128, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3238 3030  ingested\": 12800\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3230 3133 3730 3438 3330  me\": 62013704830\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155424552
+  },
+  {
+    "type": "incoming",
+    "seq": 129,
+    "message": "data: {\"status\": \"processing\", \"batch\": 129, \"processed_in_batch\": 1000, \"total_ingested\": 129000, \"execution_time\": 62375275355}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3132 392c 2022 7072  batch\": 129, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3239 3030  ingested\": 12900\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3233 3735 3237 3533 3535  me\": 62375275355\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155424913
+  },
+  {
+    "type": "incoming",
+    "seq": 130,
+    "message": "data: {\"status\": \"processing\", \"batch\": 130, \"processed_in_batch\": 1000, \"total_ingested\": 130000, \"execution_time\": 62640091242}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 302c 2022 7072  batch\": 130, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3330 3030  ingested\": 13000\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3236 3430 3039 3132 3432  me\": 62640091242\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155425178
+  },
+  {
+    "type": "incoming",
+    "seq": 131,
+    "message": "data: {\"status\": \"processing\", \"batch\": 131, \"processed_in_batch\": 1000, \"total_ingested\": 131000, \"execution_time\": 64052458553}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 312c 2022 7072  batch\": 131, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3331 3030  ingested\": 13100\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3430 3532 3435 3835 3533  me\": 64052458553\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155426590
+  },
+  {
+    "type": "incoming",
+    "seq": 132,
+    "message": "data: {\"status\": \"processing\", \"batch\": 132, \"processed_in_batch\": 1000, \"total_ingested\": 132000, \"execution_time\": 64336473494}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 322c 2022 7072  batch\": 132, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3332 3030  ingested\": 13200\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3433 3336 3437 3334 3934  me\": 64336473494\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155426875
+  },
+  {
+    "type": "incoming",
+    "seq": 133,
+    "message": "data: {\"status\": \"processing\", \"batch\": 133, \"processed_in_batch\": 1000, \"total_ingested\": 133000, \"execution_time\": 64667000229}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 332c 2022 7072  batch\": 133, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3333 3030  ingested\": 13300\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3436 3637 3030 3032 3239  me\": 64667000229\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155427205
+  },
+  {
+    "type": "incoming",
+    "seq": 134,
+    "message": "data: {\"status\": \"processing\", \"batch\": 134, \"processed_in_batch\": 1000, \"total_ingested\": 134000, \"execution_time\": 64932718589}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 342c 2022 7072  batch\": 134, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3334 3030  ingested\": 13400\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3439 3332 3731 3835 3839  me\": 64932718589\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155427471
+  },
+  {
+    "type": "incoming",
+    "seq": 135,
+    "message": "data: {\"status\": \"processing\", \"batch\": 135, \"processed_in_batch\": 1000, \"total_ingested\": 135000, \"execution_time\": 65261740951}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 352c 2022 7072  batch\": 135, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3335 3030  ingested\": 13500\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3532 3631 3734 3039 3531  me\": 65261740951\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155427800
+  },
+  {
+    "type": "incoming",
+    "seq": 136,
+    "message": "data: {\"status\": \"processing\", \"batch\": 136, \"processed_in_batch\": 1000, \"total_ingested\": 136000, \"execution_time\": 66457507628}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 362c 2022 7072  batch\": 136, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3336 3030  ingested\": 13600\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3634 3537 3530 3736 3238  me\": 66457507628\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155428995
+  },
+  {
+    "type": "incoming",
+    "seq": 137,
+    "message": "data: {\"status\": \"processing\", \"batch\": 137, \"processed_in_batch\": 1000, \"total_ingested\": 137000, \"execution_time\": 66819258411}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 372c 2022 7072  batch\": 137, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3337 3030  ingested\": 13700\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3638 3139 3235 3834 3131  me\": 66819258411\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155429357
+  },
+  {
+    "type": "incoming",
+    "seq": 138,
+    "message": "data: {\"status\": \"processing\", \"batch\": 138, \"processed_in_batch\": 1000, \"total_ingested\": 138000, \"execution_time\": 67153486331}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 382c 2022 7072  batch\": 138, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3338 3030  ingested\": 13800\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3731 3533 3438 3633 3331  me\": 67153486331\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155429691
+  },
+  {
+    "type": "incoming",
+    "seq": 139,
+    "message": "data: {\"status\": \"processing\", \"batch\": 139, \"processed_in_batch\": 1000, \"total_ingested\": 139000, \"execution_time\": 67498537199}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3133 392c 2022 7072  batch\": 139, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3339 3030  ingested\": 13900\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3734 3938 3533 3731 3939  me\": 67498537199\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155430036
+  },
+  {
+    "type": "incoming",
+    "seq": 140,
+    "message": "data: {\"status\": \"processing\", \"batch\": 140, \"processed_in_batch\": 1000, \"total_ingested\": 140000, \"execution_time\": 67836462937}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3134 302c 2022 7072  batch\": 140, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3430 3030  ingested\": 14000\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3738 3336 3436 3239 3337  me\": 67836462937\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155430374
+  },
+  {
+    "type": "incoming",
+    "seq": 141,
+    "message": "data: {\"status\": \"processing\", \"batch\": 141, \"processed_in_batch\": 1000, \"total_ingested\": 141000, \"execution_time\": 69371432689}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3134 312c 2022 7072  batch\": 141, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3431 3030  ingested\": 14100\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2036 3933 3731 3433 3236 3839  me\": 69371432689\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155431909
+  },
+  {
+    "type": "incoming",
+    "seq": 142,
+    "message": "data: {\"status\": \"processing\", \"batch\": 142, \"processed_in_batch\": 1000, \"total_ingested\": 142000, \"execution_time\": 70071691163}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3134 322c 2022 7072  batch\": 142, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3432 3030  ingested\": 14200\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2037 3030 3731 3639 3131 3633  me\": 70071691163\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155432610
+  },
+  {
+    "type": "incoming",
+    "seq": 143,
+    "message": "data: {\"status\": \"processing\", \"batch\": 143, \"processed_in_batch\": 1000, \"total_ingested\": 143000, \"execution_time\": 70414319906}\n\n",
+    "messageHexdump": "00000000: 6461 7461 3a20 7b22 7374 6174 7573 223a  data: {\"status\":\n00000010: 2022 7072 6f63 6573 7369 6e67 222c 2022   \"processing\", \"\n00000020: 6261 7463 6822 3a20 3134 332c 2022 7072  batch\": 143, \"pr\n00000030: 6f63 6573 7365 645f 696e 5f62 6174 6368  ocessed_in_batch\n00000040: 223a 2031 3030 302c 2022 746f 7461 6c5f  \": 1000, \"total_\n00000050: 696e 6765 7374 6564 223a 2031 3433 3030  ingested\": 14300\n00000060: 302c 2022 6578 6563 7574 696f 6e5f 7469  0, \"execution_ti\n00000070: 6d65 223a 2037 3034 3134 3331 3939 3036  me\": 70414319906\n00000080: 7d0a 000a                                  }..\n",
+    "timestamp": 1787155432952
+  }
+]

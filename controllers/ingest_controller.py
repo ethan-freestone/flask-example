@@ -1,12 +1,12 @@
 import time
 import json
+from itertools import batched
 
 from flask import Blueprint, jsonify, Response, stream_with_context, current_app
-from reactivex import operators as ops
 
-from services.ingest_service import run_test_ingest, run_scroll_ingest, stream_scroll_ingest
+from services.gokb_client_service import stream_http_records
+from services.ingest_service import run_test_ingest, process_and_commit_batch, run_scroll_ingest
 from services.titles_service import nuke_titles, nuke_titles_chunked
-from services.observable_service import observable_to_generator
 
 # TODO look into pydantic for validation and type checking
 
@@ -39,15 +39,16 @@ def stream_gokb_ingest():
         start_time = time.perf_counter_ns()
         total_ingested = 0
         batch_count = 0
+        app = current_app._get_current_object()
 
-        observable = stream_scroll_ingest(1000, 5000).pipe(
-            ops.map(lambda batch_and_count: batch_and_count)  # whatever shape you need
-        )
+        # batched() pulls exactly 500 items from the lazy stream,
+        # pausing the HTTP fetch until needed. No queues required.
+        for batch in batched(stream_http_records(5000), 1000):
+            count = process_and_commit_batch(batch, app)
 
-        for batch, count in observable_to_generator(observable):
-            nonlocal_total = total_ingested + count
-            total_ingested = nonlocal_total
+            total_ingested += count
             batch_count += 1
+
             yield f"data: {json.dumps({
                 'status': 'processing',
                 'batch': batch_count,
@@ -65,7 +66,7 @@ def stream_gokb_ingest():
     return Response(
         stream_with_context(generate()),
         mimetype="text/event-stream",
-        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"}
     )
 
 @ingest_bp.route("/nuke", methods=["POST"])
